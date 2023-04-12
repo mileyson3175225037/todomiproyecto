@@ -241,25 +241,34 @@ a{
 
 
 @media (max-width: 490px){
+body{
+    width: 100%;
+    margin: 0%;
+}
+
+.contenedor-pies-pagina{
+  background-color: rgb(54, 54, 54);
+}
+
 .imagenes-contenedor{
-  width: 60%;
+  width: 100%;
 }
 .imagen-mas-grande{
   width: 100%;
-  height: 80px;
+  height: 40px;
 }
 .con-image{
-  height: 80px;
+  height: 40px;
 }
 
 .etiqueta-n{
- height: 30px;
- width: 40px;
+ height: 25px;
+ width: 30px;
 }
 
 .precio{
- height: 30px;
- width: 40px;
+ height: 25px;
+ width: 30px;
 }
 
 .tamaño-de-div{
