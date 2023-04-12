@@ -237,13 +237,34 @@ a{
   border-width: 2px;
 }
 
+/*media cueri para celulares*/
+
 
 @media (max-width: 490px) {
 .imagen-mas-grande{
   width: 100%;
+  height: 250px;
+}
+.con-image{
+  height: 250px;
+}
+
+.etiqueta-n{
+ height: 50px;
+ width: 150px;
+}
+
+.precio{
+ height: 50px;
+ width: 150px;
 }
 
 .tamaño-de-div{
+  width: 165px;
+  margin: 5px 0px 5px 0px;
+}
+
+.tamaño-imagenes{
   width: 165px;
 }
 }
