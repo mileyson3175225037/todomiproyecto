@@ -1,5 +1,4 @@
 body {
-  box-sizing: border-box;
   margin: 0%;
   background-color: rgb(221, 217, 217);
   font-family: 'Roboto', sans-serif;
@@ -69,6 +68,7 @@ p{
   border-style: solid;
   border-width: 1px;
   box-shadow: red 1px 1px 1px 1px;
+  padding-right: 30px;
 }
 
 .navegacion {
@@ -146,7 +146,7 @@ footer {
 
 .contenedor-footer{
   height: auto;
-  width: 80%;
+  width: 85%;
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 80px;
@@ -156,12 +156,13 @@ footer {
 
 @media (max-width: 850px){
   body{
-    margin: 1%;
+    margin: 0%;
   }
   img{
     width: 100%;
     
   }
+
   .con-imagen{
     width:100%;
   }
@@ -170,9 +171,7 @@ footer {
     width: 100%;
     height: auto;
   }
-  .lectura{
-    height: 150px;
-  }
+  
   .navegacion {
     height: 100px;
   }
@@ -184,34 +183,32 @@ footer {
 /* este va ser el media cueri para celular*/
 .contenedor-pies-pagina{
   background-color: rgb(231, 141, 198);
-  width: 95%;
+  width: 100%;
   height: auto;
-  margin-left: auto;
-  margin-right: auto;
   border-radius: 10px;
   border-style: solid;
   border-width: 1px;
   display: flex;
   flex-wrap: wrap;
   box-shadow: rgb(63, 37, 37) 1px 1px 1px 1px;
-  padding-right: 34px;
 }
+
 .tamaño-de-div{
   background-color: rgb(41, 40, 40);
-  width: 185px;
+  width: 190px;
   height: auto;
   border-style: solid;
   border-width: 1px;
-  margin: 4px 4px 4px 4px;
+  margin: 5px 5px 5px 5px;
   border-radius: 10px ;
   background-color: rgb(158, 140, 175);
-  margin-left: auto;
+  margin-right: auto;
   margin-left: auto;
   box-shadow: rgb(59, 59, 59) 1px 1px 1px 1px;
 }
 
 .tamaño-imagenes {
-  width: 185px;
+  width: 190px;
   height: 177px;
   border-radius: 10px 10px 0px 0px;
 }
@@ -242,6 +239,12 @@ a{
 
 
 @media (max-width: 490px) {
-  
+.imagen-mas-grande{
+  width: 100%;
+}
+
+.tamaño-de-div{
+  width: 165px;
+}
 }
 
