@@ -246,29 +246,29 @@ a{
 }
 .imagen-mas-grande{
   width: 100%;
-  height: 140px;
+  height: 80px;
 }
 .con-image{
-  height: 140px;
+  height: 80px;
 }
 
 .etiqueta-n{
  height: 30px;
- width: 100px;
+ width: 50px;
 }
 
 .precio{
  height: 30px;
- width: 100px;
+ width: 50px;
 }
 
 .tamaño-de-div{
-  width: 130px;
-  margin: 5px 0px 5px 0px;
+  width: 100px;
+  margin: 0px;
 }
 
 .tamaño-imagenes{
-  width: 130px;
+  width: 100px;
 }
 }
 
