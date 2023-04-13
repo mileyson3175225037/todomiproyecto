@@ -240,7 +240,7 @@ a{
 /*media cueri para celulares*/
 
 
-@media (max-width: 499px){
+@media (max-width: 500px){
 body{
     width: 100%;
     margin: 0%;
