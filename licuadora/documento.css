@@ -254,7 +254,6 @@ body{
   width: 100%;
 }
 .imagen-mas-grande{
-  width: 100%;
   height: 40px;
 }
 .con-image{
@@ -272,12 +271,12 @@ body{
 }
 
 .tamaño-de-div{
-  width: 95px;
+  width: 99px;
   margin: 0px;
 }
 
 .tamaño-imagenes{
-  width: 95px;
+  width: 99px;
 }
 }
 
