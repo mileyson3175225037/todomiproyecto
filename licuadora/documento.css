@@ -162,10 +162,11 @@ footer {
     width: 100%;
     
   }
-  .con-imagen{
-    width:100%;
-  }
-
+  
+ .con-imagen{
+  width: 100%;
+ }
+  
   .contenedor-de-texto {
     width: 100%;
     height: auto;
@@ -181,6 +182,14 @@ footer {
   }
 }
 
+/*este va ser el media cueri para celular*/
+
+@media (max-width: 585px){
+  .imagenes-contenedor{
+    width: 99%;
+  }
+  
+}
 /* este va ser el media cueri para celular*/
 .contenedor-pies-pagina{
   background-color: rgb(231, 141, 198);
@@ -244,8 +253,17 @@ a{
 @media (max-width: 498px){
 body{
   background-color: black;
+  
+}
+.imagenes-contenedor{
+  width: 99%;
 }
 
-
+.con-imagen{
+  height: 250px;
+}
+.imagen-mas-grande{
+  height: 250px;
+}
 }
 
