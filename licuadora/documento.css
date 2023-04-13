@@ -251,19 +251,24 @@ a{
 
 
 @media (max-width: 490px){
-body{
-  background-color: black;
-  
-}
+
 .imagenes-contenedor{
   width: 99%;
 }
 
 .con-imagen{
-  height: 250px;
+  height: 270px;
 }
 .imagen-mas-grande{
-  height: 250px;
+  height: 270px;
+}
+
+.tamaño-de-div{
+  width: 165px;
+}
+
+.tamaño-imagenes{
+  width: 165px;
 }
 }
 
