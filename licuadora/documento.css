@@ -162,7 +162,6 @@ footer {
     width: 100%;
     
   }
-
   .con-imagen{
     width:100%;
   }
@@ -171,7 +170,9 @@ footer {
     width: 100%;
     height: auto;
   }
-  
+  .lectura{
+    height: 150px;
+  }
   .navegacion {
     height: 100px;
   }
@@ -240,43 +241,11 @@ a{
 /*media cueri para celulares*/
 
 
-@media (max-width: 500px){
+@media (max-width: 498px){
 body{
-    width: 100%;
-    margin: 0%;
+  background-color: black;
 }
 
-.contenedor-pies-pagina{
-  background-color: rgb(54, 54, 54);
-}
 
-.imagenes-contenedor{
-  width: 100%;
-}
-.imagen-mas-grande{
-  height: 40px;
-}
-.con-image{
-  height: 40px;
-}
-
-.etiqueta-n{
- height: 25px;
- width: 30px;
-}
-
-.precio{
- height: 25px;
- width: 30px;
-}
-
-.tamaño-de-div{
-  width: 99px;
-  margin: 0px;
-}
-
-.tamaño-imagenes{
-  width: 99px;
-}
 }
 
