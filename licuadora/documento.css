@@ -188,7 +188,14 @@ footer {
   .imagenes-contenedor{
     width: 99%;
   }
-  
+  .etiqueta-n{
+    height: 60px;
+    width: 180px;
+  }
+  .precio{
+    height: 60px;
+    width: 180px;
+  }
 }
 /* este va ser el media cueri para celular*/
 .contenedor-pies-pagina{
@@ -257,10 +264,10 @@ a{
 }
 
 .con-imagen{
-  height: 270px;
+  height: 280px;
 }
 .imagen-mas-grande{
-  height: 270px;
+  height: 280px;
 }
 
 .tamaño-de-div{
@@ -269,6 +276,14 @@ a{
 
 .tamaño-imagenes{
   width: 165px;
+}
+.etiqueta-n{
+  height: 60px;
+  width: 170px;
+}
+.precio{
+  height: 60px;
+  width: 170px;
 }
 }
 
