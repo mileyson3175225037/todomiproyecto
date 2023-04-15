@@ -488,6 +488,7 @@ p{
    border-style: solid;
    border-width: 1px;
    box-shadow: rgb(204, 93, 93) 1px 1px 1px 1px;
+   font-size: auto;
 }
 
 footer {
