@@ -377,7 +377,6 @@ body {
 }
 
 .div-que-lleva-imagenes2{
-    background-color: violet ;
     width: 45%;
     height: 250px;
     margin-left: auto;
@@ -399,7 +398,6 @@ footer{
 }
 
 .contenedor-div-pies-de-pagina{
-    background-color: blue;
     width: 80%;
     height: 300px;
     margin-right: auto;
